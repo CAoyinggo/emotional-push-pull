@@ -1,8 +1,14 @@
-# OS junk
-desktop.ini
-Thumbs.db
-.DS_Store
-
-# Temporary files
-*.tmp
+# Private local material; canonical profiles live outside this repository.
+private/
+profiles/
+targets/
+.qingsheng/
+.emotional-push-pull/
+.env
+.env.*
+!.env.example
 *.log
+evals/results/
+__pycache__/
+.DS_Store
+Thumbs.db
