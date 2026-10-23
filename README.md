@@ -4,9 +4,9 @@
 
 **成年男性的高自尊、松弛感与清醒亲密沟通指南 —— 拒绝讨好跪舔，告别油腻套路，掌握自然真诚的推拉艺术**
 
-[![Version](https://img.shields.io/badge/version-1.1.0-blue.svg)](package.json)
-[![Skills](https://img.shields.io/badge/skills-17%20modules%20%7C%20100%25%20covered-brightgreen.svg)](.agents/skills/emotional-master)
-[![Evals](https://img.shields.io/badge/evals-19%20scenarios%20%7C%20%E8%A1%8C%E4%B8%BA%E9%AA%8C%E6%94%B6-success.svg)](evals/scenarios.json)
+[![Version](https://img.shields.io/badge/version-1.2.0-blue.svg)](package.json)
+[![Skills](https://img.shields.io/badge/skills-18%20modules%20%7C%20100%25%20covered-brightgreen.svg)](.agents/skills/emotional-master)
+[![Evals](https://img.shields.io/badge/evals-27%20scenarios%20%7C%20%E8%A1%8C%E4%B8%BA%E9%AA%8C%E6%94%B6-success.svg)](evals/scenarios.json)
 [![License: MIT](https://img.shields.io/badge/license-MIT-purple.svg)](open_source_reference/qingsheng-skill/LICENSE)
 [![Output Style](https://img.shields.io/badge/output-%E6%9E%81%E7%AE%80%E7%9F%AD%E6%89%93%20%C2%B7%20%E9%9D%9E%E9%98%B2%E5%BE%A1%E6%80%A7-brightgreen.svg)](.agents/skills/emotional-master/SKILL.md)
 [![Interface](https://img.shields.io/badge/interface-%E7%A7%92%E7%BA%A7%E5%9B%9E%E5%A4%8D%20%C2%B7%201v1%E6%B2%99%E7%9B%92%20%2Fmock-informational.svg)](.agents/skills/emotional-master/references/crush_sandbox_simulator.md)
@@ -44,32 +44,64 @@
 │ 3. 输出层 (Output) ── 主入口 SKILL.md 严格锁定                   │
 │    • 默认只给 1 条 10-25 字即拷即用的话术，不带理论分析与策略说教│
 ├──────────────────────────────────────────────────────────────────┤
-│ 4. 教练层 (Coach) ── 按需展开 (/mock, /复盘, /教练)             │
+│ 4. 教练层 (Coach) ── 按需展开 (/mock, 截图复盘, /复盘)           │
 │    • 仅在用户明确要求分析、对练或复盘时，才展开详细理论与多维评分│
 └──────────────────────────────────────────────────────────────────┘
 ```
 
 ---
 
+## 📸 聊天截图复盘与表达修正
+
+当发送聊天截图或文本并询问“帮我复盘 / 哪些话低价值 / 这句怎么改 / /复盘聊天”时，系统启动专属复盘模式：
+
+1. **情境还原**：区分可见事实、用户补充与未知盲区；识别发言双方，理清先后时间与关系背景，不凭模糊断句脑补。
+2. **客观检视**：检查连发追问、过度解释、隐性契约、生疏冒犯、回避责任等具体表达问题；**同时充分肯定真诚主动、认真倾听、就事论事负责道歉与温和设限**。不硬挑毛病，不评价男生本人的价值。
+3. **两层隔离**：
+   - **当时推荐改法**：10–25 字真实真人表达示范（仅供复盘教学，绝不代表现在补发！）。
+   - **现在怎么做**：给出屏幕前最优先的单步动作（默认不追加任何解释/检讨；面对明确拒绝坚决停止联系）。
+4. **精炼输出模板**：
+   ```markdown
+   整体判断：
+   [1-2 句话客观定性：指出主要卡点，或说明整体正常顺畅不必过度修正]
+
+   关键复盘：
+   - 原话：“...”
+     → 问题/适用条件：...
+     → 当时推荐改法：“...” (备选：“...”)
+
+   值得保留：
+   - 原话：“...” → [做得好的地方，如真诚、倾听、明确；没有时可省略]
+
+   现在怎么做：
+   [明确告知当前最优先的 1 个动作，绝不随意补发小作文]
+   ```
+
+---
+
 ## 🎛️ 常用操作指令
 
-平时直接丢原话或截图，系统默认秒给回复；需要深入对练时使用以下指令：
+平时直接丢原话或截图，系统默认秒给回复；需要深入对练或复盘时使用以下指令：
 
 ```powershell
 # 1. 日常解围（直接发原话或截图）
 "她说：'你挺闲啊'，我们平时常开玩笑，怎么回？"
 > 忙里偷闲，刚好碰上你。
 
-# 2. 遭遇越界/情感勒索时直接求助
+# 2. 聊天截图复盘与表达修正（发截图/文字 + 复盘请求）
+"帮我复盘这段聊天截图，哪些话低价值？当时怎么说更好？现在怎么做？"
+/复盘聊天
+
+# 3. 遭遇越界/情感勒索时直接求助
 "她说：'你要是不把朋友圈背景换成我，就是不爱我'，怎么回？"
 > 我很在乎你，但我习惯按自己的节奏发圈，我们不拿这个证明爱。
 
-# 3. 沉浸式对练沙盒 (/mock)
+# 4. 沉浸式对练沙盒 (/mock)
 /mock 慢热回避型
 /mock 高压职场型
 /mock 直爽调侃型
 
-# 4. 沙盒内伴随指令
+# 5. 沙盒内伴随指令
 /提示    # 暂停角色，给出思路与示范
 /教练    # 开启/关闭每轮短评
 /复盘    # 针对整场表现生成框架/边界/共情体检报告
@@ -84,7 +116,8 @@
 emotional-push-pull/
 ├── .agents/skills/emotional-master/          # 主力 Skill
 │   ├── SKILL.md                              # 总控准则（极简输出 + 严格分层）
-│   └── references/                           # 17 个专项手册
+│   └── references/                           # 18 个专项手册
+│       ├── screenshot_dialogue_review.md     # 教练层：聊天截图复盘与表达修正指南 (NEW)
 │       ├── mindset_meta_concepts.md          # 思想层集中地：隐性契约、边界、情绪主权
 │       ├── chat_playbook.md                  # 场景层：破冰、升温、邀约与三级阶梯
 │       ├── shit_tests_bible.md               # 场景层：调侃化解与临床三阶设限剧本
@@ -102,15 +135,15 @@ emotional-push-pull/
 │       ├── target_profile_card.md            # 工具层：事实与投射过滤器
 │       └── tong_classic_quotes.md            # 语料库：反向曲解与自尊金句
 ├── evals/
-│   └── scenarios.json                        # 19 个独立行为验收测试场景
+│   └── scenarios.json                        # 27 个独立行为验收测试场景
 └── open_source_reference/                    # 开源参考归档 (MIT)
 ```
 
 ---
 
-## 🧪 19 个行为验收场景 (Evals)
+## 🧪 27 个行为验收场景 (Evals)
 
-项目在 [`evals/scenarios.json`](evals/scenarios.json) 中定义了 19 个独立验收用例，覆盖：
+项目在 [`evals/scenarios.json`](evals/scenarios.json) 中定义了 27 个独立验收用例，覆盖：
 1. **自然接话**（先给简短回复，不长篇大论）
 2. **语境不足**（不盲目打好感百分比，区分事实与猜测）
 3. **严肃提问**（诚实表达意图，不回避反弹）
@@ -123,3 +156,11 @@ emotional-push-pull/
 10. **非防御性设限**（面对情感勒索，平静温和守住边界）
 11. **冲突安全暂停**（情绪过载时用状态+离开+归期战术暂停，杜绝冷战）
 12. **破除隐性契约**（引导平复受害者心态，不发小作文被动攻击）
+13. **复盘-正常主动非讨好**（肯定坦荡自然邀约，不把主动判定为低价值舔狗）
+14. **复盘-真诚道歉非低价值**（肯定负责道歉，不把道歉当示弱丢框架）
+15. **复盘-连发催回复**（指出催促压力，当时改法留白，当下建议停止追问）
+16. **复盘-熟人调侃与生疏冒犯差异**（区分调侃与越界，生疏期杜绝油腻亲昵称呼）
+17. **复盘-事务求助非好感**（区分事务礼貌感谢与浪漫好感，避免职场尴尬越界）
+18. **复盘-信息不全与模糊处理**（文字模糊断句不脑补猜测，不强行心理诊断）
+19. **复盘-已发消息无需额外补救**（正常邀约不撤回、不补发自我贬低解释）
+20. **复盘-明确拒绝后停止联系**（肯定体面退出，坚决不提供任何挽回说服小作文）
