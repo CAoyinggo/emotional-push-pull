@@ -4,10 +4,10 @@
 
 **成年男性的高自尊、松弛感与清醒亲密沟通指南 —— 拒绝讨好跪舔，告别油腻套路，掌握自然真诚的推拉艺术**
 
-[![Version](https://img.shields.io/badge/version-1.2.0-blue.svg)](package.json)
-[![Skills](https://img.shields.io/badge/skills-18%20modules%20%7C%20100%25%20covered-brightgreen.svg)](.agents/skills/emotional-master)
-[![Evals](https://img.shields.io/badge/evals-27%20scenarios%20%7C%20%E8%A1%8C%E4%B8%BA%E9%AA%8C%E6%94%B6-success.svg)](evals/scenarios.json)
-[![License: MIT](https://img.shields.io/badge/license-MIT-purple.svg)](open_source_reference/qingsheng-skill/LICENSE)
+[![Version](https://img.shields.io/badge/version-1.2.0-blue.svg)](README.md)
+[![Skills](https://img.shields.io/badge/skills-18%20modules%20%7C%20%E5%85%A8%E6%A8%A1%E5%9D%97%E5%85%A5%E5%8F%A3%E8%A6%86%E7%9B%96-brightgreen.svg)](.agents/skills/emotional-master)
+[![Evals](https://img.shields.io/badge/evals-30%20scenarios%20%7C%20%E8%A1%8C%E4%B8%BA%E9%AA%8C%E6%94%B6-success.svg)](evals/scenarios.json)
+[![License: MIT](https://img.shields.io/badge/license-MIT-purple.svg)](LICENSE)
 [![Output Style](https://img.shields.io/badge/output-%E6%9E%81%E7%AE%80%E7%9F%AD%E6%89%93%20%C2%B7%20%E9%9D%9E%E9%98%B2%E5%BE%A1%E6%80%A7-brightgreen.svg)](.agents/skills/emotional-master/SKILL.md)
 [![Interface](https://img.shields.io/badge/interface-%E7%A7%92%E7%BA%A7%E5%9B%9E%E5%A4%8D%20%C2%B7%201v1%E6%B2%99%E7%9B%92%20%2Fmock-informational.svg)](.agents/skills/emotional-master/references/crush_sandbox_simulator.md)
 
@@ -128,7 +128,7 @@ emotional-push-pull/
 │       ├── advanced_conversation_steering.md # 场景层：话题跳档与自然留白
 │       ├── crush_sandbox_simulator.md        # 教练层：/mock 沉浸式对练沙盒
 │       ├── autopilot_live_guide.md           # 场景/教练层：逐轮副驾驶实时指导
-│       ├── real_world_dialogue_examples.md   # 案例库：全周期真实多轮实录
+│       ├── real_world_dialogue_examples.md   # 案例库：典型多轮情境实录（精选去敏教学案例）
 │       ├── platform_playbooks.md             # 场景层：微信/交友软件/职场生态
 │       ├── profile_audit_rules.md            # 展示面：头像/简介/动态诊断
 │       ├── social_profile_moments.md         # 展示面：真实生活方式构建
@@ -141,9 +141,9 @@ emotional-push-pull/
 
 ---
 
-## 🧪 27 个行为验收场景 (Evals)
+## 🧪 30 个行为验收场景 (Evals)
 
-项目在 [`evals/scenarios.json`](evals/scenarios.json) 中定义了 27 个独立验收用例，覆盖：
+项目在 [`evals/scenarios.json`](evals/scenarios.json) 中定义了 30 个独立验收用例，覆盖：
 1. **自然接话**（先给简短回复，不长篇大论）
 2. **语境不足**（不盲目打好感百分比，区分事实与猜测）
 3. **严肃提问**（诚实表达意图，不回避反弹）
@@ -159,8 +159,11 @@ emotional-push-pull/
 13. **复盘-正常主动非讨好**（肯定坦荡自然邀约，不把主动判定为低价值舔狗）
 14. **复盘-真诚道歉非低价值**（肯定负责道歉，不把道歉当示弱丢框架）
 15. **复盘-连发催回复**（指出催促压力，当时改法留白，当下建议停止追问）
-16. **复盘-熟人调侃与生疏冒犯差异**（区分调侃与越界，生疏期杜绝油腻亲昵称呼）
+16. **复盘-熟人调侃与生疏冒犯双向对照**（刚认识的越界冒犯 vs 熟人打趣默契的语境差异）
 17. **复盘-事务求助非好感**（区分事务礼貌感谢与浪漫好感，避免职场尴尬越界）
 18. **复盘-信息不全与模糊处理**（文字模糊断句不脑补猜测，不强行心理诊断）
 19. **复盘-已发消息无需额外补救**（正常邀约不撤回、不补发自我贬低解释）
-20. **复盘-明确拒绝后停止联系**（肯定体面退出，坚决不提供任何挽回说服小作文）
+20. **复盘-明确拒绝后区分界线**（区分停止恋爱追求与停止一切联系，不影响正当客观事务，不发挽回小作文）
+21. **图片实测-左右发言人与角色识别**（结合气泡与头像正确识别女生倾诉与男生承接）
+22. **图片实测-多图时序与重叠去重**（去除跨图交界重复消息，理清完整对话时序）
+23. **图片实测-模糊文字不脑补**（严重模糊文字标注[无法确认]，拒绝凭空猜测或心理诊断）
