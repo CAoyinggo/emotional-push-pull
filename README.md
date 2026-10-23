@@ -6,7 +6,8 @@
 
 [![Version](https://img.shields.io/badge/version-1.2.0-blue.svg)](README.md)
 [![Skills](https://img.shields.io/badge/skills-18%20modules%20%7C%20%E5%85%A8%E6%A8%A1%E5%9D%97%E5%85%A5%E5%8F%A3%E8%A6%86%E7%9B%96-brightgreen.svg)](.agents/skills/emotional-master)
-[![Evals](https://img.shields.io/badge/evals-30%20scenarios%20%7C%20%E8%A1%8C%E4%B8%BA%E9%AA%8C%E6%94%B6-success.svg)](evals/scenarios.json)
+[![Evals](https://img.shields.io/badge/evals-30%20scenarios%20%7C%20%E6%A0%87%E5%87%86%E5%AE%9A%E4%B9%89-informational.svg)](evals/scenarios.json)
+[![Eval Report](https://img.shields.io/badge/report-%E5%AE%9E%E6%B5%8B%E9%AA%8C%E6%94%B6%E6%8A%A5%E5%91%8A-success.svg)](evals/eval_report.md)
 [![License: MIT](https://img.shields.io/badge/license-MIT-purple.svg)](LICENSE)
 [![Output Style](https://img.shields.io/badge/output-%E6%9E%81%E7%AE%80%E7%9F%AD%E6%89%93%20%C2%B7%20%E9%9D%9E%E9%98%B2%E5%BE%A1%E6%80%A7-brightgreen.svg)](.agents/skills/emotional-master/SKILL.md)
 [![Interface](https://img.shields.io/badge/interface-%E7%A7%92%E7%BA%A7%E5%9B%9E%E5%A4%8D%20%C2%B7%201v1%E6%B2%99%E7%9B%92%20%2Fmock-informational.svg)](.agents/skills/emotional-master/references/crush_sandbox_simulator.md)
@@ -141,9 +142,10 @@ emotional-push-pull/
 
 ---
 
-## 🧪 30 个行为验收场景 (Evals)
+## 🧪 30 个行为验收场景定义 (Evals)
 
-项目在 [`evals/scenarios.json`](evals/scenarios.json) 中定义了 30 个独立验收用例，覆盖：
+项目在 [`evals/scenarios.json`](evals/scenarios.json) 中定义了 30 个独立验收用例标准，具体执行过程、通过/失败偏差原因及成对对比见 [**《30 场景实际行为验收与成对对照测试报告》**](evals/eval_report.md)：
+
 1. **自然接话**（先给简短回复，不长篇大论）
 2. **语境不足**（不盲目打好感百分比，区分事实与猜测）
 3. **严肃提问**（诚实表达意图，不回避反弹）
@@ -164,6 +166,13 @@ emotional-push-pull/
 18. **复盘-信息不全与模糊处理**（文字模糊断句不脑补猜测，不强行心理诊断）
 19. **复盘-已发消息无需额外补救**（正常邀约不撤回、不补发自我贬低解释）
 20. **复盘-明确拒绝后区分界线**（区分停止恋爱追求与停止一切联系，不影响正当客观事务，不发挽回小作文）
-21. **图片实测-左右发言人与角色识别**（结合气泡与头像正确识别女生倾诉与男生承接）
-22. **图片实测-多图时序与重叠去重**（去除跨图交界重复消息，理清完整对话时序）
-23. **图片实测-模糊文字不脑补**（严重模糊文字标注[无法确认]，拒绝凭空猜测或心理诊断）
+21. **图片场景-左右发言人与角色识别**（结合气泡与头像正确识别女生倾诉与男生承接）
+22. **图片场景-多图时序与重叠去重**（去除跨图交界重复消息，理清完整对话时序）
+23. **图片场景-模糊文字不脑补**（严重模糊文字标注[无法确认]，拒绝凭空猜测或心理诊断）
+
+---
+
+## 📄 许可证与第三方资料声明
+
+1. **项目自研内容**：本项目包含的主指令 [`SKILL.md`](.agents/skills/emotional-master/SKILL.md)、18 个重构参考指南、评估用例规范及测试报告均采用 [MIT License](LICENSE) 开源。
+2. **第三方开源参考归档**：存放在 [`open_source_reference/`](open_source_reference/) 目录下的参考代码与评估数据保留原项目作者版权与各自原始许可（如 `qingsheng-skill` 遵循 MIT 协议，`relationship-training-skill` 保留原版协议与属性），不被根目录 MIT 混淆覆盖。
