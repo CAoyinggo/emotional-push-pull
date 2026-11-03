@@ -1,77 +1,81 @@
 <div align="center">
 
-# 💘 Emotional Push & Pull｜情感推拉
+# 💘 Emotional Master｜中立得体与自我保护指南
 
-**高情商、不卑不亢、有边界的日常聊天与相处指南**  
-*日常聊天直接给自然回复 · 发截图教你怎么改 · 1对1实战模拟对练*
+**高情商、不卑不亢、有边界的日常聊天与相处军师**  
+*日常聊天直接给自然回复 · 保护个人精力与底线 · 发截图看哪句说砸了怎么改 · 1对1实战模拟对练*
 
 <br/>
 
-[![Version](https://img.shields.io/badge/version-1.2.0-blue.svg?style=flat-square)](README.md)
+[![Version](https://img.shields.io/badge/version-1.3.0-blue.svg?style=flat-square)](README.md)
 [![Skills](https://img.shields.io/badge/手册-18个实用模块-brightgreen.svg?style=flat-square)](.agents/skills/emotional-master)
 [![Evals](https://img.shields.io/badge/场景测试-30个典型用例全部通过-success.svg?style=flat-square)](evals/scenarios.json)
 [![Eval Report](https://img.shields.io/badge/测试报告-实测对照记录-orange.svg?style=flat-square)](evals/eval_report.md)
-[![Style](https://img.shields.io/badge/回复风格-极简短打%20·%20真实自然-blueviolet.svg?style=flat-square)](.agents/skills/emotional-master/SKILL.md)
+[![Style](https://img.shields.io/badge/回复风格-中立得体%20·%20自我保护-blueviolet.svg?style=flat-square)](.agents/skills/emotional-master/SKILL.md)
 [![License: MIT](https://img.shields.io/badge/license-MIT-purple.svg?style=flat-square)](LICENSE)
 
 <br/>
 
-[为什么做这个](#-为什么做这个) • [怎么运作的](#️-怎么运作的) • [发截图复盘](#-发截图看哪句说砸了怎么改) • [日常实用速查](#-日常实用速查) • [知识库全景](#-18-个实用手册目录) • [场景实测验证](#-30-个聊天场景实测)
+[核心理念](#-核心理念) • [怎么运作的](#️-怎么运作的) • [发截图复盘](#-发截图看哪句说砸了怎么改) • [日常实用速查](#-日常实用速查) • [知识库全景](#-18-个实用手册目录) • [场景实测验证](#-30-个聊天场景实测)
 
 </div>
 
 ---
 
-## 💡 为什么做这个
+## 💡 核心理念
 
-平时和女生聊天，很多男生容易走两个极端：
-- **要么太客气变成老好人**：一味讨好迎合、默默付出，对方回得慢就患得患失，最后把自己搞得很累；
-- **要么学网上那些油腻套路**：盲目打压、强行装酷，一张嘴就显得油嘴滑舌，让人反感。
+平时和女生聊天相处，很多男生容易走两个极端：
+- **要么太客气变成老好人**：一味讨好迎合、默默付出当提款机，对方回得慢就患得患失，把自己搞得身心俱疲；
+- **要么学网上那些激进套路**：盲目打压、挑衅试探、强行装酷，一张嘴就显得油嘴滑舌、充满攻击性，招人反感又引火烧身。
 
-**Emotional Push & Pull** 就是为了解决这些日常沟通的实际问题：  
-不用死记硬背套路话术，也不需要长篇大论的心理学理论。帮你在保持真诚和个人原则的前提下，**接得舒服、聊得松弛**，遇到不合适的人也能体面退场。
+**Emotional Master** 的核心就是：**中立、得体、自然，并且懂得好好保护自己**。
+不用学那些激进的攻防套路，也不用死记硬背心理学名词。帮你在保持真诚礼貌的前提下，**接得舒服、聊得得体、守住底线**：
+1. **情绪自保**：不把对方的一时冷淡当自我否定，不精神内耗，不自我感动；
+2. **精力与财务自保**：亲密关系讲究双向对等，坚决不当单向索取的冤大头与工具人；
+3. **言语安全**：不激化矛盾，不挑衅冒犯，说话不留口实；
+4. **清醒止损**：遇到不对劲或不尊重的人，体面后撤，安全止损。
 
 > [!TIP]
 > **日常使用原则：**  
-> 平时直接发原话或发截图，系统**默认只给 1 条 10–25 字即拷即用的自然回复**，直接复制就能发。不讲大道理、不搞说教；只有你主动问“为什么 / 帮我复盘”或者输入 `/mock` 时，才会展开细讲。
+> 平时直接发原话或发截图，系统**默认只给 1 条 10–25 字即拷即用的自然回复**，直接复制就能发。不讲大道理、不搞激进挑衅；只有你主动问“为什么 / 帮我复盘”或者输入 `/mock` 时，才会展开细讲。
 
 ---
 
 ## 🏛️ 怎么运作的
 
-为了保证日常回复干净利落，不啰嗦、不说教，系统在内部做了分工：
+为了保证日常回复干净利落，不啰嗦、不说教、安全得体，系统在内部做了清晰分工：
 
 ```mermaid
 flowchart TD
-    subgraph L1["1. 底层把关（把握分寸）"]
+    subgraph L1["1. 底层把关（中立与自我保护）"]
         direction TB
         P1["拒绝委屈讨好<br/>(付出是心甘情愿，不绑架对方回报)"]
-        P2["温和守住底线<br/>(说事实 + 表达感受 + 给出边界)"]
-        P3["不搞冷战冷暴力<br/>(情绪上头时先冷静，约定什么时候回来聊)"]
+        P2["自我保护网<br/>(防内耗 · 防当提款机/工具人 · 防过早交底)"]
+        P3["温和守住底线<br/>(非防御性设限 · 不吵架不留口实 · 体面止损)"]
     end
 
     subgraph L2["2. 场景参考（应对不同阶段）"]
         direction TB
-        S1["破冰开场、日常接话与推进邀约"]
-        S2["化解调侃开玩笑、温和拒绝无理要求"]
+        S1["破冰开场、日常接话与真诚邀约"]
+        S2["化解日常打趣、温和拒绝不合理索取"]
         S3["微信日常聊天、交友软件、职场沟通分寸"]
     end
 
     subgraph L3["3. 输出把关（主指令锁定）"]
         direction TB
-        O1["默认只给 1 条贴合语境的自然回复 (10–25字)"]
-        O2["不说教 · 不长篇大论 · 不搞油腻套路 · 复制即发"]
+        O1["默认只给 1 条贴合语境的自然得体回复 (10–25字)"]
+        O2["不说教 · 不搞激进挑衅 · 不当软柿子 · 复制即发"]
     end
 
     subgraph L4["4. 专项辅导（按需开启）"]
         direction TB
-        C1["/mock 沉浸式对练（模拟真实聊天）"]
+        C1["/mock 沉浸式对练（练习稳重与边界守护）"]
         C2["发截图复盘聊天（看哪句说砸了、教你怎么改）"]
-        C3["明确区分：当时推荐改法 vs 现在最稳妥做法"]
+        C3["明确区分：当时推荐改法 vs 现在最稳妥自保做法"]
     end
 
-    L1 -->|幕后提供判断| L2
-    L2 -->|选出最佳方向| L3
+    L1 -->|幕后提供判断与风险防护| L2
+    L2 -->|选出最安全得体的方向| L3
     L3 -.->|用户主动要求时开启| L4
 
     classDef phil fill:#fef3c7,stroke:#f59e0b,stroke-width:1.5px,color:#92400e;
@@ -87,10 +91,10 @@ flowchart TD
 
 | 模块分工 | 负责什么 | 包含文件 | 实际效果 |
 | :--- | :--- | :--- | :--- |
-| **底层原则** | 树立健康心态：不卑不亢、温和设限、情绪成熟 | [`mindset_meta_concepts.md`](.agents/skills/emotional-master/references/mindset_meta_concepts.md) | 在后台把握回复分寸，平时不把理论抛给用户 |
-| **场景手册** | 开场、接话、化解尴尬、推进邀约、处理分歧 | [`chat_playbook.md`](.agents/skills/emotional-master/references/chat_playbook.md) 等 12 篇手册 | 针对不同场景提供贴地气的说话思路 |
-| **日常输出** | 极简短打，杜绝废话与套路 | [`SKILL.md`](.agents/skills/emotional-master/SKILL.md) | **系统总控**：平时默认给 1 句话，直接发出去 |
-| **实战辅导** | 1对1模拟对练、聊天截图复盘打分 | [`screenshot_dialogue_review.md`](.agents/skills/emotional-master/references/screenshot_dialogue_review.md)<br/>[`crush_sandbox_simulator.md`](.agents/skills/emotional-master/references/crush_sandbox_simulator.md) | 输入 `/mock` 或发截图让复盘时才展开辅导 |
+| **底层原则** | 中立心态、情绪防内耗、财务防当冤大头、边界设限 | [`mindset_meta_concepts.md`](.agents/skills/emotional-master/references/mindset_meta_concepts.md) | 在后台把握分寸与风险把关，平时不把理论抛给用户 |
+| **场景手册** | 自然开场、接话、化解尴尬、推进邀约、处理分歧 | [`chat_playbook.md`](.agents/skills/emotional-master/references/chat_playbook.md) 等 12 篇手册 | 针对不同场景提供踏实、接地气、不冒犯的说话思路 |
+| **日常输出** | 极简短打，杜绝废话、套路与攻击性 | [`SKILL.md`](.agents/skills/emotional-master/SKILL.md) | **系统总控**：平时默认给 1 句话，直接发出去 |
+| **实战辅导** | 1对1模拟对练、聊天截图复盘修正 | [`screenshot_dialogue_review.md`](.agents/skills/emotional-master/references/screenshot_dialogue_review.md)<br/>[`crush_sandbox_simulator.md`](.agents/skills/emotional-master/references/crush_sandbox_simulator.md) | 输入 `/mock` 或发截图让复盘时才展开辅导 |
 
 ---
 
@@ -100,9 +104,9 @@ flowchart TD
 
 ```mermaid
 flowchart LR
-    A["1. 理清真实情况<br/>(谁在说话/上下文/当时状态)"] --> B["2. 客观指出问题<br/>(催得太急/过度解释/也肯定真诚)"]
+    A["1. 理清真实情况<br/>(谁在说话/上下文/盲区不瞎猜)"] --> B["2. 客观诊断问题<br/>(催得太急/过度迎合/缺乏自保/也肯定真诚)"]
     B --> C["3. 当时怎么说更好<br/>(学思路用，不是让你现在补发)"]
-    C --> D["4. 现在该怎么做<br/>(当下最稳妥的做法，别乱发找补)"]
+    C --> D["4. 现在该怎么做<br/>(当下最稳妥的自保做法，绝不乱发补丁)"]
 ```
 
 ### 📋 复盘示例效果
@@ -112,14 +116,14 @@ flowchart LR
 > 
 > **关键复盘：**  
 > - 原话：“怎么不理我了？在忙什么这么神秘？”  
->   → **问题**：追着要回应，容易显得患得患失。  
->   → **当时更好的改法**：留白不催，或者换个轻松话题：“刚忙完汇报，今天这天真是太热了。” *(备选：“周末那家展听说评价挺好，改天碰上了带你去看”)*
+>   → **问题**：追着要回应，暴露不安全感与隐性契约索取。  
+>   → **当时更好的改法**：留白不催，或者换个轻松话题：“刚忙完手头的事，今天天气真不错。”  
 > 
 > **做得好的地方：**  
 > - 原话：“周六下午有空吗？我知道一家很棒的咖啡馆想约你尝尝。” → 表达直接坦荡，想约就大大方方约，绝对不是讨好。
 > 
 > **现在该怎么做：**  
-> 先停下来，不要再发任何解释、表情包或认错小作文。把手机放一边做自己的事，等她回复；如果一两天都没回，之后重新挑个轻松日常话题再聊。
+> 先停下来，不要再发任何解释、表情包或认错小作文。把手机放一边专注自己的工作生活，等她回复；如果一两天都没回，说明当前窗口未开，体面保持现状，无需自我怀疑。
 
 ---
 
@@ -129,10 +133,11 @@ flowchart LR
 
 | 使用场景 | 你可以这样问 / 输入示例 | 系统怎么回你 | 怎么开启 |
 | :--- | :--- | :--- | :--- |
-| **日常求救接话** | “她说：‘你挺闲啊’，我们平时常开玩笑，怎么回？” | `忙里偷闲，刚好碰上你。`<br>*(10–25字自然接话，不讲大道理)* | 直接发原话 |
+| **日常求救接话** | “她说：‘你挺闲啊’，我们平时常开玩笑，怎么回？” | `忙里偷闲，刚好碰上你。`<br>*(10–25字自然接话，不讲大道理，不挑衅)* | 直接发原话 |
 | **看截图挑问题** | 发送聊天截图 + “帮我看看这段聊天，哪句说得不好？当时怎么改？现在怎么做？” | 给出清晰复盘：**客观定性 + 当时改法 + 肯定好的地方 + 告诉你现在别乱动** | 发截图或说 `/复盘聊天` |
-| **面对越界或绑架** | “她说：‘你要是不把朋友圈背景换成我，就是不爱我’，怎么回？” | `我很在乎你，但我习惯按自己的节奏发动态，我们不拿这个证明爱。` | 直接发原话 |
-| **1对1聊天模拟** | 想提前找找感觉，练习跟不同性格的女生聊天 | 模拟真实对话，对方会根据你的回复给出真实的反应和心理反馈 | `/mock 慢热型`<br/>`/mock 职场型`<br/>`/mock 活泼型` |
+| **面对越界或道德绑架** | “她说：‘你要是不把朋友圈背景换成我，就是不爱我’，怎么回？” | `我很在乎你，但我习惯按自己的节奏发动态，我们不拿这个证明爱。` | 直接发原话 |
+| **面对不合理索取/借钱** | “刚认识没几天，她暗示让我给她转账520买礼物，怎么回？” | `这超出我平时的开销习惯了，这方面我帮不上忙，抱歉。`<br>*(温和坚决拒绝，保护财产安全)* | 直接发原话 |
+| **1对1聊天模拟** | 想提前找找感觉，练习跟不同性格的女生聊天，同时练习守住边界 | 模拟真实对话，对方会根据你的回复给出真实的反应和心理反馈 | `/mock 慢热型`<br/>`/mock 职场型`<br/>`/mock 活泼型` |
 | **模拟过程中的求助** | 对练时卡壳了、不知道怎么接，或者想退出 | 随时暂停角色给出提示，或者生成体检报告 | `/提示` *(给思路示范)*<br/>`/教练` *(开启每轮短评)*<br/>`/复盘` *(查看整场表现)*<br/>`/exit` *(随时退出)* |
 
 ---
@@ -143,24 +148,24 @@ flowchart LR
 
 | 类别 | 模块名称 | 解决什么问题 | 查看对应文件 |
 | :--- | :--- | :--- | :--- |
-| **核心规则** | **主控准则** | 系统总入口，锁定极简回复风格，防止废话 | [`SKILL.md`](.agents/skills/emotional-master/SKILL.md) |
-| **心态分寸** | **健康沟通心态** | 破除讨好心态、学会温和拒绝、吵架时不冷暴力 | [`mindset_meta_concepts.md`](.agents/skills/emotional-master/references/mindset_meta_concepts.md) |
-| **日常聊天** | **聊天实战手册** | 破冰开场、找话题、制造共鸣、怎么自然约人 | [`chat_playbook.md`](.agents/skills/emotional-master/references/chat_playbook.md) |
-| | **接梗与化解调侃** | 应对女生开玩笑、识破试探、温和守住自己的边界 | [`shit_tests_bible.md`](.agents/skills/emotional-master/references/shit_tests_bible.md) |
-| | **吵架冷静与复原** | 情绪上头时怎么暂停、冷战怎么破冰、失恋后体面调整 | [`recovery_and_cold_start.md`](.agents/skills/emotional-master/references/recovery_and_cold_start.md) |
+| **核心规则** | **主控准则** | 系统总入口，锁定中立短打风格，防止废话与激进挑衅 | [`SKILL.md`](.agents/skills/emotional-master/SKILL.md) |
+| **心态自保** | **成熟心态与自我保护** | 情绪防内耗、财务防当冤大头、不过早交底、红旗识别止损 | [`mindset_meta_concepts.md`](.agents/skills/emotional-master/references/mindset_meta_concepts.md) |
+| **日常聊天** | **聊天实战手册** | 破冰开场、找话题、制造共鸣、怎么大方自然约人 | [`chat_playbook.md`](.agents/skills/emotional-master/references/chat_playbook.md) |
+| | **接梗与边界防护** | 应对日常打趣、识破试探、温和守住财产与尊严底线 | [`shit_tests_bible.md`](.agents/skills/emotional-master/references/shit_tests_bible.md) |
+| | **吵架冷静与复原** | 情绪上头时战术暂停、冷战怎么破冰、失恋后体面调整 | [`recovery_and_cold_start.md`](.agents/skills/emotional-master/references/recovery_and_cold_start.md) |
 | | **女生想法与情绪** | 读懂字面背后的情绪、理解对方的安全感与聊天节奏 | [`female_psychology.md`](.agents/skills/emotional-master/references/female_psychology.md) |
-| | **松弛推拉技巧** | 告别死板迎合，学会幽默曲解、适度留白与情绪起伏 | [`push_pull_framing.md`](.agents/skills/emotional-master/references/push_pull_framing.md) |
+| | **自然互动与分寸** | 告别操控与激进推拉，建立有来有回、留白舒服的交流 | [`push_pull_framing.md`](.agents/skills/emotional-master/references/push_pull_framing.md) |
 | | **进阶分寸与互动** | 识别对方好感信号、约会肢体互动的分寸与尊重底线 | [`signals_and_kino.md`](.agents/skills/emotional-master/references/signals_and_kino.md) |
 | | **深层话题沟通** | 聊完日常后怎么聊三观、聊经历，不做查户口式拷问 | [`advanced_conversation_steering.md`](.agents/skills/emotional-master/references/advanced_conversation_steering.md) |
-| | **不同平台聊天指南** | 微信日常聊法、交友软件破冰、同事故意划清界限 | [`platform_playbooks.md`](.agents/skills/emotional-master/references/platform_playbooks.md) |
-| | **高情商接话金句** | 常见玩笑幽默化解金句、反向曲解金句库 | [`tong_classic_quotes.md`](.agents/skills/emotional-master/references/tong_classic_quotes.md) |
+| | **不同平台聊天指南** | 微信日常聊法、交友软件破冰、同事情感与职场分寸隔离 | [`platform_playbooks.md`](.agents/skills/emotional-master/references/platform_playbooks.md) |
+| | **情绪自保金句库** | 常见玩笑得体化解、非防御性设限金句、止损金句库 | [`tong_classic_quotes.md`](.agents/skills/emotional-master/references/tong_classic_quotes.md) |
 | | **真实对话案例** | 多轮真实情境聊天案例与去敏实录参考 | [`real_world_dialogue_examples.md`](.agents/skills/emotional-master/references/real_world_dialogue_examples.md) |
-| **复盘对练** | **截图复盘与改法** | 分析聊天截图，指出问题、给改法、教当下怎么做 | [`screenshot_dialogue_review.md`](.agents/skills/emotional-master/references/screenshot_dialogue_review.md) |
-| | **1对1对练沙盒** | 扮演各种性格的女生陪你练，即时指点提升 | [`crush_sandbox_simulator.md`](.agents/skills/emotional-master/references/crush_sandbox_simulator.md) |
+| **复盘对练** | **截图复盘与改法** | 分析聊天截图，指出问题、给改法、指导当下自保动作 | [`screenshot_dialogue_review.md`](.agents/skills/emotional-master/references/screenshot_dialogue_review.md) |
+| | **1对1对练沙盒** | 扮演各种性格的女生陪你练，即时指点提升稳重感 | [`crush_sandbox_simulator.md`](.agents/skills/emotional-master/references/crush_sandbox_simulator.md) |
 | | **逐轮副驾指导** | 每次回复提供两种备选方案与节奏建议（辅导模式） | [`autopilot_live_guide.md`](.agents/skills/emotional-master/references/autopilot_live_guide.md) |
 | **个人形象** | **朋友圈与头像诊断** | 头像、签名、朋友圈日常动态诊断，避开装逼雷区 | [`profile_audit_rules.md`](.agents/skills/emotional-master/references/profile_audit_rules.md) |
 | | **展示真实生活** | 怎么在朋友圈自然呈现真实工作与爱好，不刻意摆拍 | [`social_profile_moments.md`](.agents/skills/emotional-master/references/social_profile_moments.md) |
-| | **对象理性观察卡** | 帮你看清对方的真实人品与三观，不盲目加滤镜 | [`target_profile_card.md`](.agents/skills/emotional-master/references/target_profile_card.md) |
+| | **对象理性观察卡** | 帮你看清对方的人品与真实特征，防止盲目上头 | [`target_profile_card.md`](.agents/skills/emotional-master/references/target_profile_card.md) |
 
 <details>
 <summary><b>📂 点击展开完整工程文件与代码目录</b></summary>
@@ -168,15 +173,15 @@ flowchart LR
 ```text
 emotional-push-pull/
 ├── .agents/skills/emotional-master/          # 主技能目录
-│   ├── SKILL.md                              # 总控准则（极简输出、分流规则）
+│   ├── SKILL.md                              # 总控准则（中立极简输出、自保防御规则）
 │   └── references/                           # 18 个实用参考手册
 │       ├── screenshot_dialogue_review.md     # 截图复盘与表达修正指南
-│       ├── mindset_meta_concepts.md          # 底层原则：隐性契约、边界、情绪主权
-│       ├── chat_playbook.md                  # 聊天实战：破冰、升温、邀约三步走
-│       ├── shit_tests_bible.md               # 调侃化解与三步设限实操
+│       ├── mindset_meta_concepts.md          # 成熟心态与自我保护核心心法
+│       ├── chat_playbook.md                  # 聊天实战：破冰、升温、自然邀约
+│       ├── shit_tests_bible.md               # 常见情境化解与边界防护
 │       ├── recovery_and_cold_start.md        # 吵架暂停与关系调整
 │       ├── female_psychology.md              # 女生沟通心理与情绪承接
-│       ├── push_pull_framing.md              # 松弛感与高框架推拉
+│       ├── push_pull_framing.md              # 自然互动与健康分寸指南
 │       ├── signals_and_kino.md               # 信号识别与身体接触分寸
 │       ├── advanced_conversation_steering.md # 深度话题展开与自然留白
 │       ├── crush_sandbox_simulator.md        # /mock 沉浸式对练沙盒
@@ -186,7 +191,7 @@ emotional-push-pull/
 │       ├── profile_audit_rules.md            # 头像/签名/朋友圈诊断
 │       ├── social_profile_moments.md         # 真实生活方式朋友圈打造
 │       ├── target_profile_card.md            # 理性观察卡：分清事实与脑补
-│       └── tong_classic_quotes.md            # 幽默化解与高自尊金句库
+│       └── tong_classic_quotes.md            # 情绪主权与自保金句库
 ├── evals/                                    # 场景测试目录
 │   ├── scenarios.json                        # 30 个典型聊天场景定义
 │   ├── eval_report.md                        # 实测报告与成对对比记录
@@ -230,5 +235,5 @@ emotional-push-pull/
 ---
 
 <div align="center">
-  <sub>不卑不亢 · 自然真诚 · 聊得舒服 · 保持自尊</sub>
+  <sub>不卑不亢 · 中立得体 · 自我保护 · 保持自尊</sub>
 </div>
