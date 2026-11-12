@@ -1,6 +1,6 @@
 # Emotional Master｜开源生态深度融合、评测规范与全库工程验收报告
 
-> **报告版本**：v3.0.0 (实装抽屉 16 阿伦森效应与增减推拉抽屉、阶梯递增赞美与反差张力、冲突破局雷霆雨露设限、115 场景全景工程验收版)
+> **报告版本**：v3.1.0 (深度实装单抽屉精准触发判定机、六大多抽屉复合协同编排网络与全周期八大核心思想实操运用指南、115 场景全景工程验收版)
 > **评测基准**：[`evals/scenarios.json`](scenarios.json) (115 个评测场景：111 个开发集 + 4 个待独立验收场景)
 > **主控规范**：[`SKILL.md`](../.agents/skills/emotional-master/SKILL.md) 与 21 篇活动参考手册 ([`references/`](../.agents/skills/emotional-master/references/))
 > **开源参考生态**：[`open_source_reference/README.md`](../open_source_reference/README.md)
