@@ -5,9 +5,9 @@
 **抽屉式亲密关系与全周期沟通军师中枢**  
 *时间线快速分诊 · 危机五大分手分型 · 蔡加尼克开环破局 · 峰终情绪节点重塑 · 真实自尊与男性主导权*
 
-[![Version](https://img.shields.io/badge/version-3.2.0-blue.svg?style=flat-square)](README.md)
-[![Skills](https://img.shields.io/badge/手册-22篇活动指南-brightgreen.svg?style=flat-square)](.agents/skills/emotional-master)
-[![Evals](https://img.shields.io/badge/评测规范-116个情境场景-informational.svg?style=flat-square)](evals/scenarios.json)
+[![Version](https://img.shields.io/badge/version-3.3.0-blue.svg?style=flat-square)](README.md)
+[![Skills](https://img.shields.io/badge/手册-23篇活动指南-brightgreen.svg?style=flat-square)](.agents/skills/emotional-master)
+[![Evals](https://img.shields.io/badge/评测规范-117个情境场景-informational.svg?style=flat-square)](evals/scenarios.json)
 [![Eval Report](https://img.shields.io/badge/工程审计-静态验证通过-success.svg?style=flat-square)](evals/eval_report.md)
 [![License: MIT](https://img.shields.io/badge/license-MIT-purple.svg?style=flat-square)](LICENSE)
 
@@ -15,13 +15,13 @@
 
 ---
 
-## 💡 核心机制：17 级抽屉架构与抽屉 0 底座
+## 💡 核心机制：18 级抽屉架构与抽屉 0 底座
 
-系统以**“中枢分诊中控 + 抽屉 0 通用底座 + 17 级专项业务抽屉”**模块化运转，接收时间线或聊天记录后秒级定型；**彻底剔除任何情绪化色彩与主观说教，完全禁止跟着当前对象的情绪走；完全回归认知神经科学、女性抑郁逃避心理、女性心理学、抑郁症及双相情感障碍医学病理机制与三层证据分级体系**；首屏直出高情商实战草稿与破局策略；用户抛出任何情境与问题，**强制输出深层心理透视与各大诱因百分比严密归因（权重严格合计 100%，逐一给出事实与逻辑理由）**：
+系统以**“中枢分诊中控 + 抽屉 0 通用底座 + 18 级专项业务抽屉”**模块化运转，接收时间线或聊天记录后秒级定型；**彻底剔除任何情绪化色彩与主观说教，完全禁止跟着当前对象的情绪走；完全回归认知神经科学、女性抑郁逃避心理、女性心理学、抑郁症及双相情感障碍医学病理机制与三层证据分级体系**；首屏直出高情商实战草稿与破局策略；用户抛出任何情境与问题，**强制输出深层心理透视与各大诱因百分比严密归因（权重严格合计 100%，逐一给出事实与逻辑理由）**：
 
 * **抽屉 0 · 通用底座**：框架自尊（有错负责、无错不认罪）、三不原则（不纠缠逼问/不空头许诺/不自贬）、三分离研读（事实/动因/杂音）、PFC 理性主权、蔡加尼克开环留白、峰终定律（Peak-End 重塑情绪节点）、健康性张力植入与知情同意微步试探、唯物辩证与博弈论铁律（矛盾论抓主要矛盾、以斗争求团结则团结存、存人失地人地皆存、阿克塞尔罗德以牙还牙重复博弈、唯物史观破除伴侣拜物教）、强制深层心理透视与各大诱因百分比严密归因测算（合计 100%）、认知神经学与精神病理学底座、**完全禁止跟着当前对象的情绪走铁律（情绪脱钩、课题分离、拒绝恐慌讨好与愤怒对撕、情绪定海神针）**。
 * **抽屉 1–5（危机分型）**：情绪作闹型（接情绪给台阶）、防御冷战型（黄金2小时脆弱置换）、权衡利弊型（撤销灰色供给）、失望冷漠型（超预期共情开环留白）、底线崩塌型（彻底物理隔离止损）。
-* **抽屉 6–10、16（相处推进与增减博弈）**：初识破冰接话、升温与关系设计（五种禀赋效应、健康性张力植入与知情同意微步试探）、相容性意愿研判、相亲流水线备忘（三振法则）、测试与翻旧账应对、**【抽屉 16】阿伦森效应与增减推拉（多巴胺奖赏预测误差、阶梯递增赞美、反差张力、冲突破局雷霆雨露设限）**。
+* **抽屉 6–10、16、18（相处推进、增减博弈与身份赋能）**：初识破冰接话、升温与关系设计（五种禀赋效应、健康性张力植入与知情同意微步试探）、相容性意愿研判、相亲流水线备忘（三振法则）、测试与翻旧账应对、**【抽屉 16】阿伦森效应与增减推拉**、**【抽屉 18】罗森塔尔效应与身份赋能（自证预言破局、高阶身份锚定、心理安全场域构建、双螺旋驱动模型）**。
 * **抽屉 11–15、17（实战工具与象数推演）**：截图四问复盘、`/mock` 沙盒对练、`/call` 电话模拟、`/自动` 逐轮副驾、内耗收束替代、**【抽屉 17】太乙神数象数推演（`/太乙` 主客博弈动静攻守、君臣民三基长期相容性体检、宏观时空节律心理投射）**。
 * **单抽屉精准判定机 (4.1)**：17 大抽屉精准适用时机、现场典型信号、痛点排查与关键破局 SOP 完整判定矩阵。
 * **多抽屉复合协同网络 (4.2)**：六大高频复合链条流水线协同（初识高价值破局链、冷战僵局破冰链、真性绝望挽回链、暧昧性张力推进链、相亲去留裁决链、临场危机演练链）。
@@ -42,8 +42,8 @@
 ## 📚 详细文档与评测
 
 * **核心总控准则**：详见 [`SKILL.md`](.agents/skills/emotional-master/SKILL.md)
-* **22 篇专项活动指南**：详见 [`.agents/skills/emotional-master/references/`](.agents/skills/emotional-master/references/) 目录
-* **116 项情境评测 (Evals)**：详见 [`evals/scenarios.json`](evals/scenarios.json) 与 [评测审计报告](evals/eval_report.md)
+* **23 篇专项活动指南**：详见 [`.agents/skills/emotional-master/references/`](.agents/skills/emotional-master/references/) 目录
+* **117 项情境评测 (Evals)**：详见 [`evals/scenarios.json`](evals/scenarios.json) 与 [评测审计报告](evals/eval_report.md)
 * **开源生态融合与致谢**：详见 [《开源生态致谢》](open_source_reference/README.md)
 
 <div align="center">
